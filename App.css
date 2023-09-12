@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+    background: #61dafb;
+  }
+  
+  .header button {
+    all: unset;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header button:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* ProductList styles */
+  .products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .product-card {
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 39%;
+    height: 230px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .product-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-card h5 {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  .product-card button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-card button:hover {
+    background-color: #4ba3d7;
+  }
+  
+  /* CartList styles */
+  .cartItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cartItem img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .cartItem span {
+    margin-right: 10px;
+  }
+  
+  .cartItem button {
+    font-size: 14px;
+    padding: 4px 8px;
+    border: none;
+    background-color: #61dafb;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .cartItem button:hover {
+    background-color: #4ba3d7;
+  }
+  
+  .cartItem span:last-child {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  /* CartList total amount */
+  p {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
